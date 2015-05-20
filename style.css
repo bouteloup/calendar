@@ -1,0 +1,73 @@
+table
+{
+  border-collapse: collapse;
+
+}
+
+th
+{
+  background-color: #01B0F0 !important;
+}
+
+td ,th
+{
+  border: 1px solid black;
+  padding: 8px;
+  position: relative;
+  background-color: #8B6;
+}
+
+.colorBackgroundArray td
+{
+  background-color: red !important;
+}
+
+.truc td
+{
+  background-color: #FFF !important;
+}
+
+.date
+{
+  text-align: center;
+  font-size: 25px;
+}
+
+.fleches_gauche
+{
+  position: absolute;
+  top: 70px;
+  left: 470px;
+}
+
+.fleches_droite
+{
+  position: absolute;
+  top: 66px;
+  right : 470px;
+}
+
+.bouton_modifier_agenda
+{
+  position: absolute;
+  top: 160px;
+  left: 430px;
+}
+
+.bouton_ajouter_une_entree
+{
+  position: absolute;
+  top: 160px;
+  right: 430px;
+}
+
+.date_modifier_agenda
+{
+  font-size: 25px;
+  text-align: center;
+}
+
+.bouton_envoyer
+{
+  text-align: center;
+}
